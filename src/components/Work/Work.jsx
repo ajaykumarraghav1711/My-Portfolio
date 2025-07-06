@@ -39,7 +39,7 @@ const Work = () => {
               <img
                 src={project.image}
                 alt={project.title}
-                className="w-full h-48 object-cover rounded-xl"
+                className="w-full h-48 object-cover rounded-xl relative"
               />
             </div>
             <div className="p-6">
@@ -77,14 +77,15 @@ const Work = () => {
               </button>
             </div>
 
-            <div className="flex flex-col">
-              <div className="w-full flex justify-center bg-gray-900 px-4">
-                <img
-                  src={selectedProject.image}
-                  alt={selectedProject.title}
-                  className="lg:w-full w-[95%] object-contain rounded-xl shadow-2xl"
-                />
-              </div>
+            <div className="flex flex-col s ">
+           <div className="w-full   flex justify-center items-center bg-gray-900 px-4 py-4">
+  <img
+    src={selectedProject.image}
+    alt={selectedProject.title}
+    className="w-full h-14 max-w-4xl object-contain rounded-xl shadow-2xl"
+  />
+</div>
+
               <div className="lg:p-8 p-6">
                 <h3 className="lg:text-3xl font-bold text-white mb-4 text-md">
                   {selectedProject.title}
@@ -111,14 +112,14 @@ const Work = () => {
                   >
                     View Code
                   </a>
-                  <a
+                  {/* { <a
                     href={selectedProject.webapp}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="w-1/2 bg-purple-600 hover:bg-purple-800 text-white lg:px-6 lg:py-2 px-2 py-1 rounded-xl lg:text-xl text-sm font-semibold text-center"
                   >
                     View Live
-                  </a>
+                  </a> } */}
                 </div>
               </div>
             </div>
