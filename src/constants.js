@@ -84,7 +84,7 @@ export const SkillsInfo = [
       { name: 'Compass', logo: mcLogo },
       { name: 'Vercel', logo: vercelLogo },
       { name: 'Netlify', logo: netlifyLogo },
-      { name: 'Figma', logo: figmaLogo },
+    
     ],
   },
 ];
@@ -93,7 +93,7 @@ export const SkillsInfo = [
   {
   id: 1,
   img:  "https://tse1.mm.bing.net/th/id/OIP.6P9zVKl0TsKw-NOsUABrAQAAAA?pid=Api&P=0&h=180",
-  role: "Backend Developer Intern",
+  role: " Certified Backend Developer ",
   company: "Sheriyan Coding School",
   date: "sep 2024 - Jan 2025",  
   desc: "Worked as a Backend Development Intern, focusing on building scalable server-side applications. Gained hands-on experience with Node.js, Express.js, MongoDB, and RESTful APIs. Collaborated on backend logic, API development, and database integration to support full-stack web applications.",
@@ -182,12 +182,12 @@ export const SkillsInfo = [
   },
   {
   id: 2,
-  title: "Movie Ticket Booking System",
+  title: "Movie APP",
   description:
     "A fully responsive movie ticket booking system built using React.js. It allows users to browse movies, view details, select showtimes, choose seats, and book tickets. The app features a smooth user experience with dynamic components and intuitive navigation, simulating a real-world booking platform.",
   image: "https://mir-s3-cdn-cf.behance.net/project_modules/1400/ce8969156091525.63610f520faad.jpg", // replace with your actual image URL if available
   tags: ["HTML", "CSS", "JavaScript", "React JS"],
-  github: "https://github.com/ajaykumarraghav1711/Movie-TIcket-Booking.git", // update if needed
+  github: "https://github.com/ajaykumarraghav1711/MovieApp",  
 }
 
 ];

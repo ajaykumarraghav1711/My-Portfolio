@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactTypingEffect from 'react-typing-effect';
 import Tilt from 'react-parallax-tilt';
-import profileImage from '../../assets/profile2.png';
+import Ajay from "../../assets/AjayRaghav.jpg";
 
 const About = () => {
   return (
@@ -69,9 +69,11 @@ const About = () => {
             gyroscope={true}
           >
             <img
-              src= "https://media.licdn.com/dms/image/v2/D4D03AQG4jhLFXgD5Pg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1724168300248?e=1756944000&v=beta&t=CX9ceIVC6gmrMaPOqCU5qdM3DuNP2jqw6gCPcS4UULk"
+              // src= "https://media.licdn.com/dms/image/v2/D4D03AQG4jhLFXgD5Pg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1724168300248?e=1756944000&v=beta&t=CX9ceIVC6gmrMaPOqCU5qdM3DuNP2jqw6gCPcS4UULk"
+              src={Ajay}
               alt="Ajay Raghav"
               className="w-full h-full rounded-full object-cover drop-shadow-[0_10px_20px_rgba(130,69,236,0.5)]"
+              
             />
           </Tilt>
         </div>
