@@ -71,6 +71,7 @@ export const SkillsInfo = [
     
      
       { name: 'JavaScript', logo: javascriptLogo },
+      { name: 'Python', logo: pythonLogo },
  
     ],
   },
@@ -96,7 +97,8 @@ export const SkillsInfo = [
   role: " Certified Backend Developer ",
   company: "Sheriyan Coding School",
   date: "sep 2024 - Jan 2025",  
-  desc: "Worked as a Backend Development Intern, focusing on building scalable server-side applications. Gained hands-on experience with Node.js, Express.js, MongoDB, and RESTful APIs. Collaborated on backend logic, API development, and database integration to support full-stack web applications.",
+  // desc: "Worked as a Backend Development Intern, focusing on building scalable server-side applications. Gained hands-on experience with Node.js, Express.js, MongoDB, and RESTful APIs. Collaborated on backend logic, API development, and database integration to support full-stack web applications.",
+  desc: "Completed a certified  Backend Development course from Sheriyan Coding School , gaining hands-on learning and practical knowledge in web development.",
   skills: [
     "Node.js",
     "Express.js",
@@ -177,7 +179,7 @@ export const SkillsInfo = [
    // replace with your actual image import
     image:" https://s.yimg.com/fz/api/res/1.2/bzkUa8QlbhgPyMKCYK37YA--~C/YXBwaWQ9c3JjaGRkO2ZpPWZpdDtoPTI0MDtxPTgwO3c9MjQw/https://s.yimg.com/zb/imgv1/3fbb2396-c95b-31fe-a059-6e059fc0aaf6/t_500x300",
     tags: [ "HTML", "CSS","EJS" ,"JavaScript"],
-    github: "https://github.com/ajaykumarraghav1711/FoodDelivery-App.git", // replace with your actual GitHub repo
+    // github: "https://github.com/ajaykumarraghav1711/FoodDelivery-App.git", // replace with your actual GitHub repo
     
   },
   {

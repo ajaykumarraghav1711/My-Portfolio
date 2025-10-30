@@ -22,7 +22,7 @@ const Footer = () => {
             { name: "About", id: "about" },
             { name: "Skills", id: "skills" },
             { name: "Experience", id: "experience" },
-            { name: "Projects", id: "projects" },
+            { name: "Projects", id: "work" },
             { name: "Education", id: "education" },
           ].map((item, index) => (
             <button
@@ -40,7 +40,7 @@ const Footer = () => {
           {[
              
           
-            { icon: <FaLinkedin />, link: "https://www.linkedin.com/in/ajay-kumar-raghav-5263752a1/" },
+            { icon: <FaLinkedin />, link: "https://www.linkedin.com/in/ajay-raghav-5263752a1/" },
             { icon: <FaInstagram />, link: "https://www.instagram.com/ajayraghav139/" },
              
             

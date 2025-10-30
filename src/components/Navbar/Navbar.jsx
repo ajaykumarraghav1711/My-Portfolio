@@ -79,7 +79,8 @@ const Navbar = () => {
             <FaGithub size={24} />
           </a>
           <a
-            href="https://www.linkedin.com/in/ajay-kumar-raghav-5263752a1/"
+            // href="https://www.linkedin.com/in/ajay-kumar-raghav-5263752a1/"
+            href="https://www.linkedin.com/in/ajay-raghav-5263752a1/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-300 hover:text-[#8245ec]"
